@@ -64,3 +64,7 @@ The API is deployed and accessible at:
    ```bash
    git clone <repository-url>
    cd <repository-folder>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2a9cd4002308998f5166fd4fd6bfe8b7e11c9aec
