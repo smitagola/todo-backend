@@ -2,7 +2,7 @@ import db from "../db.js";
 
 export const getTodo = async (req, res) =>{
     const query = "select * from todos";
-
+    console.log(req);
     try {        
     const data = await db.query(query);
     console.log(data.rows)
