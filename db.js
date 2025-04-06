@@ -2,8 +2,10 @@ import pkg from 'pg';
 const { Pool } = pkg;
 
 const db = new Pool({
-  connectionString: 'postgresql://postgres:QjbbbGMU2IVfqOH0@db.pmrzzfsgeajjcohqmesg.supabase.co:5432/postgres',
-  ssl: false,
+  connectionString: 'postgresql://postgres.pmrzzfsgeajjcohqmesg:QjbbbGMU2IVfqOH0@aws-0-ap-south-1.pooler.supabase.com:6543/postgres',
+  ssl: {
+    rejectUnauthorized: false,
+  },
 });
 
 export default db;
