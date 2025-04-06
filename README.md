@@ -7,7 +7,7 @@ This is a simple and efficient backend API for managing todos. Built with Node.j
 ## 🚀 Live API Endpoint
 
 The API is deployed and accessible at:  
-**[Todo Backend API](https://todo-backend-e2gl.onrender.com)**
+**[Todo Backend API](https://todo-backend-sc3t.onrender.com)**
 
 ---
 
